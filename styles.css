@@ -1,0 +1,574 @@
+body {
+
+    align-content: center;
+    background:#ffff;
+    font-family: 'Mulish';
+    font-style: normal;
+    max-width: 100%;
+    margin: auto;
+}
+#container{
+    position: relative;
+    width: 100%;
+    height: 4123px;
+    background: linear-gradient(180deg, #F6FDF3 0%, #FFFFFF 100%);
+    
+}
+
+#header{
+    height: 100px;
+    width: auto;
+    background: #FFFFFF;
+    left: 0px;
+    top: 100px;
+    
+}
+
+#nav-area{
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 0 100px;
+    gap:30%;
+    position: relative;
+    width: auto;
+    height: 42.5px;
+    top: 31.25px;
+   
+
+}
+
+#logo{
+    width: 124px;
+    height: 34px;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 34px;
+    color: #5ABD58;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+ul{
+    /* Auto layout */
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0px;
+    gap: 25px;
+    width: 777px;
+    height: 42px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+li{
+    /* Vendors */
+    width: auto;
+    height: 20px;
+    font-weight: 400;
+    font-size: 16px;    
+    line-height: 20px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.menu-item{
+    /* identical to box height */
+    color: #151515;
+}
+
+
+#nav-buttons{  
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 15px;
+    width: 253px;
+    height: 42px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.button{
+    /* Frame 6 */
+    /* Auto layout */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    gap: 12px;
+    width: 119px;
+    height: 42px;
+    border-radius: 8px;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+}
+
+.button1{
+    background: #F3F3F3;
+    border: #F3F3F3;
+    color: black;
+    align-content: center;
+}
+
+.button2{
+    background: linear-gradient(180deg, #69D666 0%, #55B553 100%);
+    border:  #55B553 ;
+    color: white;
+}
+
+#hero{
+
+    height: 570px;
+    width: auto;
+    margin: 40px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+}
+
+.hero-text-area{
+   
+    flex-direction: column;
+    height: 290px;
+    width: 440px;
+    padding: 90px;
+    margin: 0px 50px 0px 0px ;
+}
+
+#hero-image-area{
+
+    width: 600px;
+    height: 549px;
+    top: 136px;
+    margin: 0px 0px auto auto;
+    
+}
+
+
+#hero-text-1{
+        
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 55px;  
+    color: #151515;
+
+}
+
+#hero-text-2{
+        
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+    color: #151515;
+    
+}
+
+.button3{
+    background: linear-gradient(180deg, #69D666 0%, #55B553 100%);
+    border:  #55B553 ;
+    color: white;
+    width: 169px;
+}
+
+
+#hero-circle{
+
+    width: 440px;
+    height: 440px;
+    left:200px;
+    top: 164px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    margin: auto;
+}
+
+#hero-cart-img{
+   
+    width: 477px;
+    height: 549px;
+    left: 701px;
+    top: 115px;
+    margin: auto;
+    background: url(./assets/depositphotos_45855923-stock-photo-shopping-cart-with-various-groceries1.png); 
+}
+
+.rectangle{
+   
+    width: 118px;
+    height: 63px;
+    background: linear-gradient(106.84deg, #FFFFFF 0%, #FFFFFF 99.69%);
+    box-shadow: 0px 4px 100px rgba(149, 149, 149, 0.15), inset 0px 4px 100px rgba(165, 255, 212, 0.05);
+    border-radius: 8px;
+}
+
+.rect1{
+    position: relative;
+    bottom: 430px;
+    left: 480px;
+
+  
+    
+}
+
+.rect2{
+    position: relative;
+    bottom: 130px;
+    left: 30px;
+
+}
+
+.hero-img{
+    
+    box-shadow: 0px 4px 50px 5px rgba(0, 0, 0, 0.05), inset 0px 4px 100px rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.hero-img-1{
+    position: relative;
+    bottom: 300px;
+    left: 440px;    
+    width: 64px;
+    height: 64px;
+    background: url(./assets/ama.png);
+}
+
+.hero-img-2{
+    position: relative;
+    bottom: 630px;
+    left: 180px;
+    width: 53px;
+    height: 53px;
+    background: url(./assets/marv.jpg);
+}
+
+.hero-img-3{
+    position: relative;
+    bottom: 480px;
+    left: 40px;
+    width: 64px;
+    height: 64px;
+    background: url(./assets/buchi.jpg);
+}
+
+#content{
+    position: relative;
+    width: auto;
+}
+
+#row1{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 30%;
+    width: auto;
+    height: 178px;
+    background: #FFFFFF;
+    margin: auto;
+
+}
+
+li.row1-item{
+    position: relative;
+    left: 80px;
+    font-size: 18px;
+    line-height: 23px;
+    width:   170px;
+    margin: auto;
+    height: 46px;
+    padding: 80px;
+    
+    
+}
+
+li.row1-item::before{
+    content: "\f00c"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -2em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+
+#row2{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0 10px 0;
+    height: 677px;
+    width: 100%;
+    gap: 20%;
+    background: url('./assets/Rectangle3.jpg');
+}
+
+#row2-card-area{
+    position: relative;
+    width: 50%;
+    height: inherit;
+    padding: 50px;
+    
+
+}
+
+.card{
+    display: flexbox;
+   
+    width: 300px;
+    height: 300px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 30px;
+    gap: 10px;
+    margin: 60px 0 0 50px;
+}
+
+.cardhead{
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 34px;
+    width: 286px;
+    height: 68px;
+    
+}
+
+.cardbody{
+    width: 286px;
+    height: 96px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.cardbutton{
+    background: rgba(85, 181, 83, 0.06);
+    border: 1px solid rgba(85, 181, 83, 0.1);
+    border-radius: 8px;
+    color: green;
+    width: 169px;
+    height: 57px;
+    margin: 50px 0 0 0;
+}
+
+#row2-image-area{
+    position: relative;       
+    width: 50%;
+    height: inherit;
+    
+}
+
+#row2-image{
+    position: relative;
+    width: 655px;
+    height: 600px;
+    padding: 0;
+    top: 77px;
+    background: url('./assets/05A0D21E-CC9B-4FB1-9D0F-325ED37B56EF1.png');
+}
+
+#row3{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0 30px 0;
+    height: 550px;
+    width: 100%;
+    gap: 20%;
+    
+
+}
+
+#row3-text-area{
+    position: relative;       
+    width: 50%;
+    height: inherit;
+    
+}
+
+.row3-rows{
+    display: flex;
+    flex-direction: row;
+    position: relative;   
+    width: 470px;
+    height: 140;
+    margin: 20px 0 40px 80px;
+}
+
+.row-boxes{
+    width: 220px;
+
+}
+
+.row3-heading{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    font-family: 'Nunito';
+    font-style: normal;
+}
+
+.row3-body{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+#row3-inage-area{
+    
+    position: relative;       
+    width: 50%;
+    height: inherit;
+    
+}
+
+#row3-image{
+    width: 352px;
+    height: 348px;
+    margin: 100px 0 0 0;
+    background: url("./assets/Rectangle10.png");
+}
+
+#row4{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 0;
+    height: 600px;
+    width: 100%;
+    gap: 20%;
+   
+}
+
+#row4-image-area{
+    position: relative;       
+    width: 50%;
+    height: inherit;
+    
+}
+
+#row4-image1{
+   
+    
+}
+
+#row-image2{
+
+}
+
+.row4-text{
+    margin: 0;
+}
+
+#row5{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 0;
+    height: 500px;
+    width: 100%;
+    gap: 15%;    
+   
+
+}
+
+.row5-text-image{
+
+    position: relative;       
+    width: 50%;
+    height: inherit;
+    
+}
+
+.row5-text{
+
+    margin: 10px;
+
+}
+
+#row5-image{   
+    
+    width: 603px;
+    height: 469px;  
+    background: url(./assets/shopping-cart-filled-with-various-groceries-store_488220-42830\ 1.png);
+}
+
+
+#row6-patners{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 0;
+    height: 490px;
+    width: 100%;
+    background: #E1F7DE;
+}
+
+.row6-rows{
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    margin: auto;
+    left: 10%
+}
+
+#row6-heading{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+}
+.row6-boxes{
+    position: relative;
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.patner-logo-size{
+    width: 100px;  
+    height: 100px;
+}
+
+#footer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10%;
+    width: auto;
+    padding: 3% 0  0 20%;
+
+
+}
+
