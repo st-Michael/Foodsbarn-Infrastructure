@@ -4,7 +4,7 @@ body {
     background:#ffff;
     font-family: 'Mulish';
     font-style: normal;
-    max-width: 1590px;
+    max-width: 100%;
     margin: auto;
 }
 #container{
@@ -176,10 +176,7 @@ a:link {
     font-size: 40px;
     line-height: 55px;  
     color: #151515;
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+
 }
 
 #hero-text-2{
@@ -188,10 +185,7 @@ a:link {
     font-size: 16px;
     line-height: 24px;
     color: #151515;
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    
 }
 
 .button3{
@@ -492,3 +486,89 @@ li.row1-item::before{
 .row4-text{
     margin: 0;
 }
+
+#row5{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 0;
+    height: 500px;
+    width: 100%;
+    gap: 15%;    
+   
+
+}
+
+.row5-text-image{
+
+    position: relative;       
+    width: 50%;
+    height: inherit;
+    
+}
+
+.row5-text{
+
+    margin: 10px;
+
+}
+
+#row5-image{   
+    
+    width: 603px;
+    height: 469px;  
+    background: url(./assets/shopping-cart-filled-with-various-groceries-store_488220-42830\ 1.png);
+}
+
+
+#row6-patners{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 0;
+    height: 490px;
+    width: 100%;
+    background: #E1F7DE;
+}
+
+.row6-rows{
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    margin: auto;
+    left: 10%
+}
+
+#row6-heading{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+}
+.row6-boxes{
+    position: relative;
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.patner-logo-size{
+    width: 100px;  
+    height: 100px;
+}
+
+#footer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10%;
+    width: auto;
+    padding: 3% 0  0 20%;
+
+
+}
+
