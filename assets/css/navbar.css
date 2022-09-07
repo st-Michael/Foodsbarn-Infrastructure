@@ -1,0 +1,103 @@
+nav{
+    display:  grid;
+    grid-template-columns: 1fr  3fr;
+    padding: 30px 100px 30px 100px;
+    height: 100px;
+    column-gap: 30%;
+    width: 100%;
+    align-items: center;
+    background-color: white ;
+    
+}
+
+
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: right;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.nav-list a{
+    text-decoration: none;
+    text-overflow: none;
+    color: #000000;
+    display: block;   
+    min-width: fit-content; 
+
+}
+
+.nav-btn{
+    min-width: fit-content; 
+    
+}
+
+.sign-up{
+    background: #F3F3F3;
+    color: black;
+    margin-right: 10px;
+}
+
+#checkbox_toggle{
+    display: none;
+}
+.hamburger{
+    display: none;
+}
+
+
+@media (max-width: 1100px) {
+
+    nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 30%;
+        width: 100%;
+        align-items: center;
+        background-color: white ;
+    }
+
+    .nav-list{
+        display: none;
+        position: fixed;
+        right: 0;
+        left: 70%;
+        height: 100%;
+        align-items: left;
+        padding: 16px 0;
+        background-color:#e5f0f0;
+       
+    }
+
+    .nav-btn{
+        display:grid;
+        gap: 15px;
+       
+    }
+
+    .nav-list a:hover {
+        display: block;
+        background-color:#ffffff;
+        transition: 0.3s ease;
+       }
+
+    input[type=checkbox]:checked ~ .nav-list{
+        display: flex;
+        flex-direction: column;
+       }
+
+
+    .hamburger{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+  
+}

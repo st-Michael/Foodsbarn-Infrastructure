@@ -1,0 +1,7 @@
+button {
+    min-width: 100px;
+    height: 40px;
+    color: white;
+    background: linear-gradient(180deg, #69d666 0%, #55b553 100%);
+    border-radius: 8px;
+  }

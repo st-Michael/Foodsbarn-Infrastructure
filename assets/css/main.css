@@ -1,0 +1,64 @@
+@import url("font.css");
+@import url("form.css");
+@import url("variables.css");
+@import url("utility.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  width: 100vw;
+  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nunito", "Sans Serif";
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 55px;
+  color: #151515;
+}
+
+p,
+span,
+a {
+  font-family: "Mulish", "Sans Serif";
+  font-weight: 400;
+}
+
+p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+section {
+  width: 100%;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+button {
+    border: none;
+}
+
+.nav-logo{
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 34px;
+  color: #5ABD58;
+}

@@ -1,0 +1,72 @@
+/*********************** 
+HERO SECTION
+***********************/
+.hero {
+        height: 100vh;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 50px;
+        row-gap: 50px;
+        column-gap: 50px;
+        align-items: center;
+        grid-template-areas: "one two";
+      }
+
+      .hero .one {
+        grid-area: one;
+      }
+
+      .hero .two {
+        grid-area: two;
+      }
+
+      @media(max-width: 768px) {
+        .hero {
+            grid-template-areas: "two" 
+                                "one";
+        }
+      }
+
+      .hero > div {
+        width: 100%;
+      }
+
+      .hero > div > img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+
+      .hero button {
+        min-width: 150px;
+        height: 57px;
+      }
+
+/*********************** 
+LIST ITEM SECTION
+***********************/
+.items1{
+
+    width: auto;
+    max-height: 176px;
+    min-height: 112px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    background-color: var(--body-color);
+}
+
+@media(max-width: 768px) {
+  .items1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.items1-box{
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}

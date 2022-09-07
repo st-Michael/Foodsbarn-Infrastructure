@@ -1,0 +1,205 @@
+/* 
+Main area start
+*/
+main{
+    padding: o;
+    margin: 0;
+}
+
+/* .main-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    row-gap: 10px;
+    column-gap: 10px;
+  
+    
+} 
+ */
+.main-sectn{
+  
+    display: flex;
+    flex-direction: row;    
+    height: 100vh;
+    column-gap: 13%;
+    width: 100%;
+    padding: 0%;
+    margin: 20px 0 20px 0 ;
+    place-items: center;
+    justify-content: center;
+    align-content: center;
+    
+    
+
+}
+
+
+
+/* 
+Main area start
+*/
+
+
+/* 
+Main area top section start
+*/
+
+.main-top{
+    height: 741px;
+    background-image: url(../images/fruitbg.svg);
+    
+}
+
+.main-tr{
+    
+    display: flex;
+    position: relative;
+    align-items: stretch;
+    left: 8%;
+    top: 9.5%;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.main-tr > img{
+    height: 100%;
+    width: 100%;
+}
+
+.main-tl{
+  justify-content: center;
+}
+
+
+.main-card{
+    display: flex;
+    flex-direction: column;
+    width: 346px;
+    height: 341px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 30px;
+}
+
+.main-card > button{
+    background: rgba(85, 181, 83, 0.06);
+    color: #55B553;
+    width: 169px;
+    height: 57px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* 
+Main area top section end
+*/
+
+
+/* 
+Main area middle section start
+*/
+
+.main-ml{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    row-gap: 20px;
+    
+}
+
+.main-ml > div{
+    display: flex;
+    flex-direction: column;
+    width: 218px;
+    row-gap: 15px;
+    
+}
+
+.main-ml > div >img {
+    width: 35px;
+    height: 35px;
+}
+
+.main-mr > img{
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+}
+/* 
+Main area middle section end
+*/
+
+
+/* 
+Main area bottom section start
+*/
+.main-bttm{
+
+}
+
+
+.main-br{
+    max-width:  455px;
+    justify-content: flex-start;
+  
+}
+.main-bl{
+    display: flex;
+    width: 50%;
+    padding-top: 90px ;
+    justify-content: center;
+   
+}
+.main-bl > img{
+
+     
+}
+
+.img-slant{
+    position: relative;
+    transform: rotate(24.09deg);
+    
+}
+
+/* 
+Main area bottom section start
+*/
+
+
+@media(max-width: 768px){
+    
+    .main-sectn{
+  
+        display: flex;
+        flex-direction: column; 
+        height: 100vh;
+        width: 100%;
+        padding: 0%;
+        
+         
+    
+    }
+
+    .main-tr{
+        display: none;
+    }
+
+    .main-mid{
+        flex-direction: column-reverse;
+        background-color: #55B553;
+        
+    }
+
+    .main-mr > img{
+        align-items: center;
+        max-width: 90%;
+        max-height: 90%;
+    }
+
+    .main-bttm{
+        background-color: aqua;
+    }
+}
